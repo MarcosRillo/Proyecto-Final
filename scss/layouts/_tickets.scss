@@ -1,0 +1,14 @@
+
+.section-contenedor {
+    @include flex (column, nowrap, center, center, 40px);
+
+    h2{
+        margin: 0;
+    }
+    .card {
+        background-color: $color-gray-600;
+        padding: .625rem 6.25rem;
+        box-shadow: $shadow-xl;
+    }
+}
+
