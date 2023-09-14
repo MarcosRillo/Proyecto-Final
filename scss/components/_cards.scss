@@ -1,16 +1,15 @@
 
-$card-bg: #{$body-bg-color};
+$card-bg: transparent;
 $card-radius: #{12px};
-$card-border: #{$color-gray-200};
 
 .card {
-    border: 1px solid $card-border;
     overflow: hidden;
     position: relative;
     transition: all .3s ease;
     box-shadow: $shadow-lg;
     border-radius: $card-radius;
     background-color: $card-bg;
+    text-align: center;
 
     &:hover {
         box-shadow: $shadow-md;
@@ -23,14 +22,12 @@ $card-border: #{$color-gray-200};
     &-title {
         font-size: $font-2xl;
         font-weight: $font-bold;
+        margin-bottom: 24px;
+        color: $body-text-color;
     }
 
     &-img {
         width: 100%;
         height: auto;
-    }
-
-    &-text {
-        margin-bottom: 24px;
     }
 }
