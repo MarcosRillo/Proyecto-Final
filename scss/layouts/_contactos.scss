@@ -1,0 +1,79 @@
+.contactos-section {
+    @include flex (column, nowrap, center, center, 20px);
+
+    &-h2 {
+        font-size: $font-5xl;
+    }
+
+    &-contenedor {
+        @include flex (row, nowrap, center, start, 0);
+        height: 70%;
+
+        &-h3 {
+            background-color: $body-bg-color;
+            color: $body-text-color;
+            text-align: center;
+            height: 100%;
+            padding: 30px;
+        }
+
+        &-form {
+            @include grid (1fr 1fr, 1fr 1fr 1fr 1fr, "nombre email" "asunto asunto" "mensaje mensaje" "mensaje mensaje");
+            gap: 30px;
+            background-color: $color-gray-100;
+            padding: 80px;
+            height: 100%;
+            border-radius: 0 50px 0 0;
+
+            .input-nombre {
+                grid-area: nombre;
+            }
+
+            .input-email {
+                grid-area: email;
+            }
+
+            .input-asunto {
+                grid-area: asunto;
+            }
+
+            .input-mensaje {
+                grid-area: mensaje;
+
+            }
+
+            .btn-submit {
+                --btn-hover-bg: #{$color-gray-500};
+                --btn-hover-color: #{$color-gray-100};
+
+                border: 2px solid transparent;
+                cursor: pointer;
+                padding: 12px 32px;
+                outline: 0;
+                font-size: $font-md;
+                text-align: center;
+                transition: all .2s ease;
+                font-weight: $font-medium;
+                line-height: $leading-none;
+                user-select: none;
+                text-transform: none;
+                text-decoration: none;
+
+                color: $body-text-color;
+                border-color: transparent;
+                border-radius: 15px;
+                background-color: $color-gray-800;
+
+                // Estados
+                &:hover {
+                    color: $color-gray-100;
+                    background-color: $color-gray-600;
+                }
+
+                &:active {
+                    transform: scale3d(.95 .95 .1);
+                }
+            }
+        }
+    }
+}

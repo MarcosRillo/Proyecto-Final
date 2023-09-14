@@ -105,9 +105,8 @@ p {
 
 .input {
   width: 100%;
-  color: #e5e7eb;
+  color: #f9fafb;
   border: 1px solid #d1d5db;
-  display: block;
   padding: 10px 18px;
   outline: 0;
   font-size: 1rem;
@@ -116,9 +115,9 @@ p {
   line-height: 1.5;
   padding-right: 24px;
   border-radius: 4px;
-  background-color: body-bg-color; }
+  background-color: #1f2937; }
   .input::placeholder {
-    color: #e5e7eb;
+    color: #f9fafb;
     opacity: .5;
     pointer-events: none; }
   .input:focus {
@@ -303,6 +302,72 @@ p {
   .bio-contenedor p {
     font-size: 1.25rem;
     font-weight: 400; }
+
+.contactos-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; }
+  .contactos-section-h2 {
+    font-size: 3rem; }
+  .contactos-section-contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: start;
+    gap: 0;
+    height: 70%; }
+    .contactos-section-contenedor-h3 {
+      background-color: #1f2937;
+      color: #e5e7eb;
+      text-align: center;
+      height: 100%;
+      padding: 30px; }
+    .contactos-section-contenedor-form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: "nombre email" "asunto asunto" "mensaje mensaje" "mensaje mensaje";
+      gap: 30px;
+      background-color: #f3f4f6;
+      padding: 80px;
+      height: 100%;
+      border-radius: 0 50px 0 0; }
+      .contactos-section-contenedor-form .input-nombre {
+        grid-area: nombre; }
+      .contactos-section-contenedor-form .input-email {
+        grid-area: email; }
+      .contactos-section-contenedor-form .input-asunto {
+        grid-area: asunto; }
+      .contactos-section-contenedor-form .input-mensaje {
+        grid-area: mensaje; }
+      .contactos-section-contenedor-form .btn-submit {
+        --btn-hover-bg: #6b7280;
+        --btn-hover-color: #f3f4f6;
+        border: 2px solid transparent;
+        cursor: pointer;
+        padding: 12px 32px;
+        outline: 0;
+        font-size: 1rem;
+        text-align: center;
+        transition: all .2s ease;
+        font-weight: 500;
+        line-height: 1;
+        user-select: none;
+        text-transform: none;
+        text-decoration: none;
+        color: #e5e7eb;
+        border-color: transparent;
+        border-radius: 15px;
+        background-color: #1f2937; }
+        .contactos-section-contenedor-form .btn-submit:hover {
+          color: #f3f4f6;
+          background-color: #4b5563; }
+        .contactos-section-contenedor-form .btn-submit:active {
+          transform: scale3d(0.95 0.95 0.1); }
 
 /* Document
  * ========================================================================== */
