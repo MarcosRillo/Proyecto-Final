@@ -7,11 +7,13 @@
     justify-content: space-between;
 
     &-brand {
-        height: 32px;
+        height: 60px;
     }
 
-    &-items {
+    &-links {
         gap: 16px;
         display: flex;
+        align-items: center;
+        color: $heading-text-color;
     }
 }

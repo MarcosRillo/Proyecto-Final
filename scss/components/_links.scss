@@ -23,7 +23,7 @@
         transform: scale3d(0, 0, 1);
         transition: all .2s ease;
         border-radius: 2px;
-        transform-origin: left;
+        transform-origin: center;
         background-color: $heading-text-color;
     }
 }

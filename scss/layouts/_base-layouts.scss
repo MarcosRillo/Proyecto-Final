@@ -1,13 +1,16 @@
-$header-bg-color: $color-gray-50;
-$header-border-color: $color-gray-200;
+$header-bg-color: $color-gray-800;
+$header-border-color: $color-gray-900;
 
-$footer-bg-color: $color-gray-300;
+$footer-bg-color: transparent;
 $footer-text-color: $body-text-color;
 
 .base {
     &-layout {
         display: flex;
         flex-direction: column;
+        background-image: url(../assets/img/fondo.jpg);
+        background-size: cover;
+        background-position: center;
     }
 
     &-header {
@@ -26,17 +29,44 @@ $footer-text-color: $body-text-color;
     &-content {
         flex: 1;
         position: relative;
-        margin-top: 4rem;
+        margin-top: 10vh;
+        display: flex;
+        .index__section {
+            @include flex (column, nowrap, center, center, 100px);
+            width: 100%;
+            text-align: center;
+            p {
+                font-size: $font-2xl;
+                font-weight: $font-normal;
+            }
+            &-links {
+                @include flex (row, nowrap, center, center, 200px);
+                margin-top: 4rem;
+                li {
+                    list-style: none;
+                    font-size: $font-4xl;
+                    a {
+                        font-weight: $font-semibold;
+                        font-family: $font-primary;
+                    }
+                }
+            } 
+        }
     }
 
     &-footer {
-        padding: 32px 16px;
-        font-size: 16px;
-        font-weight: 400;
-        text-align: center;
         background-color: $footer-bg-color;
-        p {
-            color: $footer-text-color;
+        @include flex (row, nowrap, center, end, 20px);
+        .footer-ul {
+            @include flex (row, nowrap, center, end, 60px);
+            li {
+                list-style: none;
+                a {
+                    img {
+                        height: 40px;
+                    }
+                }
+            }
         }
     }
 }
