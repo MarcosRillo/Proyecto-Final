@@ -3,7 +3,8 @@
     @include flex (column, nowrap, center, center, 40px);
 
     h2{
-        margin: 0;
+        margin: 0 auto;
+        text-align: center;
     }
     .card {
         background-color: rgba($color-gray-600, $alpha: .7);

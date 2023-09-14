@@ -10,7 +10,7 @@
         height: 70%;
 
         &-h3 {
-            background-color: $body-bg-color;
+            background-color: rgba($color: $body-bg-color, $alpha: .6);
             color: $body-text-color;
             text-align: center;
             height: 100%;
@@ -20,8 +20,8 @@
         &-form {
             @include grid (1fr 1fr, 1fr 1fr 1fr 1fr, "nombre email" "asunto asunto" "mensaje mensaje" "mensaje mensaje");
             gap: 30px;
-            background-color: $color-gray-100;
-            padding: 80px;
+            background-color: rgba($color: $color-gray-100, $alpha: .6);
+            padding: 60px 20px;
             height: 100%;
             border-radius: 0 50px 0 0;
 
@@ -43,9 +43,6 @@
             }
 
             .btn-submit {
-                --btn-hover-bg: #{$color-gray-500};
-                --btn-hover-color: #{$color-gray-100};
-
                 border: 2px solid transparent;
                 cursor: pointer;
                 padding: 12px 32px;

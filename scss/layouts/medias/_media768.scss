@@ -15,6 +15,30 @@
                     gap: 40px;
                 }
             }
+
+            .elPlan__section {
+                &-container {
+                    .cards {
+                        grid-template-columns: 1fr 1fr;
+                    }
+                }
+            }
+
+            .contactos-section {
+                &-contenedor {
+                    @include flex (column, nowrap, center, center, 0);
+
+                    &-h3 {
+                        width: 100%;
+                    }
+
+                    &-form {
+                        @include grid (1fr, 1fr 1fr, "nombre" "email" "asunto" "mensaje");
+                        width: 100%;
+                        border-radius: 0;
+                    }
+                }
+            }
         }
     }
 
@@ -25,10 +49,7 @@
         justify-content: center;
         font-size: $font-xl;
         height: auto;
-
-        &-brand {
-            display: none;
-        }
+        flex-direction: column;
 
         &-links {
             flex-direction: column;
@@ -39,7 +60,8 @@
 
     .base {
         &-content {
-            margin-top: 30vh;
+            margin-top: 40vh;
+
             .index__section {
                 gap: 5px;
 
@@ -50,6 +72,29 @@
                 &-links {
                     flex-direction: column;
                     gap: 40px;
+                }
+            }
+
+            .elPlan__section {
+                &-container {
+                    gap: 1.875rem;
+
+                    .container-video {
+                        iframe {
+                            height: 40vh;
+                        }
+                    }
+
+                    .cards {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            }
+
+            .contactos-section {
+
+                &-contenedor {
+                    flex-direction: column;
                 }
             }
         }
