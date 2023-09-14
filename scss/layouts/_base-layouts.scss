@@ -1,0 +1,42 @@
+$header-bg-color: $color-gray-50;
+$header-border-color: $color-gray-200;
+
+$footer-bg-color: $color-gray-300;
+$footer-text-color: $body-text-color;
+
+.base {
+    &-layout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-header {
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 9000;
+        position: fixed;
+        box-shadow: 0 0 1em -0.125em rgba(10, 10, 10, 10%),
+                    0 0 1px rgba(10, 10, 10, 2%);
+
+        border-bottom: 1px solid $header-border-color;
+        background-color: $header-bg-color;
+    }
+
+    &-content {
+        flex: 1;
+        position: relative;
+        margin-top: 4rem;
+    }
+
+    &-footer {
+        padding: 32px 16px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        background-color: $footer-bg-color;
+        p {
+            color: $footer-text-color;
+        }
+    }
+}
