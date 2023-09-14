@@ -6,7 +6,7 @@
         margin: 0;
     }
     .card {
-        background-color: $color-gray-600;
+        background-color: rgba($color-gray-600, $alpha: .7);
         padding: .625rem 6.25rem;
         box-shadow: $shadow-xl;
     }

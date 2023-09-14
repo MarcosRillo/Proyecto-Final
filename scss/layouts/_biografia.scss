@@ -1,0 +1,22 @@
+
+.bio-section {
+    @include flex (column, no-wrap, center, center, 40px);
+    padding: 2.5rem;
+
+}
+
+.bio-h2 {
+    font-size: $font-4xl;
+    text-decoration: underline;
+}
+
+.bio-contenedor {
+    @include flex (column, no-wrap, center, center, 30px);
+    text-align: center;
+
+    p {
+        font-size: $font-xl;
+        font-weight: $font-normal;
+    }
+}
+
