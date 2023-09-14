@@ -40,7 +40,7 @@ $footer-text-color: $body-text-color;
                 font-weight: $font-normal;
             }
             &-links {
-                @include flex (row, nowrap, center, center, 200px);
+                @include flex (row, nowrap, center, center, 12.5rem);
                 margin-top: 4rem;
                 li {
                     list-style: none;

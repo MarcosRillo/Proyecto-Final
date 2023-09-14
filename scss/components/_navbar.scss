@@ -1,10 +1,7 @@
 .navbar {
-    gap: 16px;
     height: 64px;
     padding: 8px 16px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex (row, nowrap, space-between, center, 16px);
 
     &-brand {
         height: 60px;

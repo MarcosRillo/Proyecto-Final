@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: center;
+        font-size: $font-xl
+    }
+
+    ;
+
+    .base {
+        &-content {
+            .index__section {
+                gap: 10px;
+
+                &-links {
+                    gap: 40px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 320px) {
+    .navbar {
+        justify-content: center;
+        font-size: $font-xl;
+        height: auto;
+
+        &-brand {
+            display: none;
+        }
+
+        &-links {
+            flex-direction: column;
+        }
+    }
+
+    ;
+
+    .base {
+        &-content {
+            margin-top: 30vh;
+            .index__section {
+                gap: 5px;
+
+                p {
+                    display: none;
+                }
+
+                &-links {
+                    flex-direction: column;
+                    gap: 40px;
+                }
+            }
+        }
+    }
+
+}
