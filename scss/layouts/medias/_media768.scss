@@ -2,9 +2,7 @@
     .navbar {
         justify-content: center;
         font-size: $font-xl
-    }
-
-    ;
+    };
 
     .base {
         &-content {
@@ -26,7 +24,7 @@
 
             .contactos-section {
                 &-contenedor {
-                    @include flex (column, nowrap, center, center, 0);
+                    @include flex (column, center, center, 0);
 
                     &-h3 {
                         width: 100%;
@@ -37,64 +35,6 @@
                         width: 100%;
                         border-radius: 0;
                     }
-                }
-            }
-        }
-    }
-
-}
-
-@media (max-width: 320px) {
-    .navbar {
-        justify-content: center;
-        font-size: $font-xl;
-        height: auto;
-        flex-direction: column;
-
-        &-links {
-            flex-direction: column;
-        }
-    }
-
-    ;
-
-    .base {
-        &-content {
-            margin-top: 40vh;
-
-            .index__section {
-                gap: 5px;
-
-                p {
-                    display: none;
-                }
-
-                &-links {
-                    flex-direction: column;
-                    gap: 40px;
-                }
-            }
-
-            .elPlan__section {
-                &-container {
-                    gap: 1.875rem;
-
-                    .container-video {
-                        iframe {
-                            height: 40vh;
-                        }
-                    }
-
-                    .cards {
-                        grid-template-columns: 1fr;
-                    }
-                }
-            }
-
-            .contactos-section {
-
-                &-contenedor {
-                    flex-direction: column;
                 }
             }
         }

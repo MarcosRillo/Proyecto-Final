@@ -98,11 +98,6 @@ p {
     width: 100%;
     height: auto; }
 
-.input-container {
-  display: flex;
-  gap: 8px;
-  flex-direction: column; }
-
 .input {
   width: 100%;
   color: #e5e7eb;
@@ -152,16 +147,17 @@ p {
   padding: 8px 16px;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  gap: 16px; }
+  gap: 1rem; }
   .navbar-brand {
     height: 60px; }
   .navbar-links {
-    gap: 16px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 1rem;
     color: #f3f4f6; }
 
 .base-layout {
@@ -190,7 +186,6 @@ p {
   .base-content .index__section {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -202,7 +197,6 @@ p {
     .base-content .index__section-links {
       display: flex;
       flex-direction: row;
-      flex-wrap: nowrap;
       justify-content: center;
       align-items: center;
       gap: 12.5rem;
@@ -218,14 +212,12 @@ p {
   background-color: transparent;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: end;
   gap: 20px; }
   .base-footer .footer-ul {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: end;
     gap: 60px; }
@@ -237,7 +229,6 @@ p {
 .elPlan__section {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 20px;
@@ -271,7 +262,6 @@ p {
 .section-contenedor {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 40px; }
@@ -286,7 +276,6 @@ p {
 .bio-section {
   display: flex;
   flex-direction: column;
-  flex-wrap: no-wrap;
   justify-content: center;
   align-items: center;
   gap: 40px;
@@ -301,7 +290,6 @@ p {
 .bio-contenedor {
   display: flex;
   flex-direction: column;
-  flex-wrap: no-wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -313,7 +301,6 @@ p {
 .contactos-section {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   gap: 20px; }
@@ -322,7 +309,6 @@ p {
   .contactos-section-contenedor {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: start;
     gap: 0;
@@ -387,7 +373,6 @@ p {
   .base-content .contactos-section-contenedor {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 0; }

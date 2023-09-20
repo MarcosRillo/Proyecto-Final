@@ -1,16 +1,14 @@
 .navbar {
     height: 64px;
     padding: 8px 16px;
-    @include flex (row, nowrap, space-between, center, 16px);
+    @include flex (row, space-between, center, 1rem);
 
     &-brand {
         height: 60px;
     }
 
     &-links {
-        gap: 16px;
-        display: flex;
-        align-items: center;
+        @include flex (row, center, center, 1rem);
         color: $heading-text-color;
     }
 }

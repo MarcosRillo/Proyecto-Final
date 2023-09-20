@@ -5,12 +5,6 @@ $input-text-color: $color-gray-200;
 $input-border-color: $color-gray-300;
 $input-focus-border-color: $color-gray-400;
 
-.input-container {
-    display: flex;
-    gap: 8px;
-    flex-direction: column;
-}
-
 .input {
     width: 100%;
     color: $input-text-color;

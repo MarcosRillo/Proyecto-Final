@@ -1,5 +1,5 @@
 .bio-section {
-    @include flex (column, no-wrap, center, center, 40px);
+    @include flex (column, center, center, 40px);
     padding: 2.5rem;
 
 }
@@ -12,7 +12,7 @@
 }
 
 .bio-contenedor {
-    @include flex (column, no-wrap, center, center, 30px);
+    @include flex (column, center, center, 30px);
     text-align: center;
 
     p {

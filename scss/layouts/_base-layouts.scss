@@ -33,7 +33,7 @@ $footer-text-color: $body-text-color;
         display: flex;
         justify-content: center;
         .index__section {
-            @include flex (column, nowrap, center, center, 100px);
+            @include flex (column, center, center, 100px);
             width: 100%;
             text-align: center;
             p {
@@ -41,7 +41,7 @@ $footer-text-color: $body-text-color;
                 font-weight: $font-normal;
             }
             &-links {
-                @include flex (row, nowrap, center, center, 12.5rem);
+                @include flex (row, center, center, 12.5rem);
                 margin-top: 4rem;
                 li {
                     list-style: none;
@@ -57,9 +57,9 @@ $footer-text-color: $body-text-color;
 
     &-footer {
         background-color: $footer-bg-color;
-        @include flex (row, nowrap, center, end, 20px);
+        @include flex (row, center, end, 20px);
         .footer-ul {
-            @include flex (row, nowrap, center, end, 60px);
+            @include flex (row, center, end, 60px);
             li {
                 list-style: none;
                 a {

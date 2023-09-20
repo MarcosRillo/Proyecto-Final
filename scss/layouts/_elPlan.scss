@@ -1,5 +1,5 @@
 .elPlan__section {
-    @include flex (column, nowrap, center, center, 20px);
+    @include flex (column, center, center, 20px);
     margin-bottom: 5vh;
     h2 {
         font-size: $font-5xl;

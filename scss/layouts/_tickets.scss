@@ -1,6 +1,6 @@
 
 .section-contenedor {
-    @include flex (column, nowrap, center, center, 40px);
+    @include flex (column, center, center, 40px);
 
     h2{
         margin: 0 auto;
