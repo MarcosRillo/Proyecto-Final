@@ -24,6 +24,13 @@
             @include grid (1fr 1fr 1fr 1fr, none, none);
             gap: 1.25rem;
             width: 100%;
+
+            .card {
+
+                img {
+                    height: 75%;
+                }
+            }
         }
     }
 }

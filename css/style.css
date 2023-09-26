@@ -266,6 +266,8 @@ p {
       grid-template-areas: none;
       gap: 1.25rem;
       width: 100%; }
+      .elPlan__section-container .cards .card img {
+        height: 75%; }
 
 .section-contenedor {
   display: flex;
