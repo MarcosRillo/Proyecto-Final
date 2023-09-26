@@ -7,5 +7,39 @@
         padding: .625rem 6.25rem;
         box-shadow: $shadow-xl;
     }
+
+    .card-primary {
+        
+        h6 {
+            color: $color-primary;
+        }
+
+        &:hover {
+            background-color: rgba($color-primary, $alpha: .7);
+            transition: all .2s ease-in-out;
+
+            h6 {
+                 color: $color-secondary-hover;
+                 transition: all .2s ease-in-out;
+            }
+        }
+    }
+
+    .card-secondary {
+        
+        h6 {
+            color: $color-secondary;
+        }
+
+        &:hover {
+            background-color: rgba($color-secondary, $alpha: .7);
+            transition: all .2s ease-in-out;
+
+            h6 {
+                 color: $color-primary-hover;
+                 transition: all .2s ease-in-out;
+            }
+        }
+    }
 }
 

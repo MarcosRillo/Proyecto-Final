@@ -56,6 +56,10 @@ $footer-text-color: $body-text-color;
                         font-weight: $font-semibold;
                         font-family: $font-primary;
                         color: $color-primary;
+
+                        &:hover {
+                            color: $color-primary-hover;
+                        }
                     }
                 }
             } 
