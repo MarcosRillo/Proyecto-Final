@@ -36,16 +36,24 @@ $leading-relaxed: 1.625;
 $leading-loose: 2;
 
 // Colors
-$color-gray-50: #f9fafb;
-$color-gray-100: #f3f4f6;
-$color-gray-200: #e5e7eb;
-$color-gray-300: #d1d5db;
-$color-gray-400: #9ca3af;
-$color-gray-500: #6b7280;
-$color-gray-600: #4b5563;
-$color-gray-700: #374151;
-$color-gray-800: #1f2937;
-$color-gray-900: #111827;
+$color-gray-50: #fafafa;
+$color-gray-100: #f5f5f5;
+$color-gray-200: #e5e5e5;
+$color-gray-300: #d4d4d4;
+$color-gray-400: #a3a3a3;
+$color-gray-500: #737373;
+$color-gray-600: #525252;
+$color-gray-700: #404040;
+$color-gray-800: #262626;
+$color-gray-900: #171717;
+
+// Primary colors
+$color-primary: #60a5fa;
+$color-primary-hover: #bfdbfe;
+
+// Secondary colors
+$color-secondary: #fb923c;
+$color-secondary-hover: #fed7aa;
 
 // Shadow
 $shadow-color: $color-gray-400;

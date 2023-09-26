@@ -37,7 +37,13 @@ $footer-text-color: $body-text-color;
             width: 100%;
             text-align: center;
             p {
-                text-shadow: $shadow-md
+                text-shadow: $shadow-md;
+                color: $color-secondary;
+                transition: all .2s ease-in-out;
+
+                &:hover {
+                    color: $color-secondary-hover;
+                }
             }
 
             &-links {
@@ -49,6 +55,7 @@ $footer-text-color: $body-text-color;
                     a {
                         font-weight: $font-semibold;
                         font-family: $font-primary;
+                        color: $color-primary;
                     }
                 }
             } 
