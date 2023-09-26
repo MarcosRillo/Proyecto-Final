@@ -2,21 +2,15 @@
     @include flex (column, center, center, 40px);
     padding: 2.5rem;
 
-}
+    .bio-h2 {
+        text-decoration: underline;
+    }
 
-.bio-h2 {
-    font-size: $font-4xl;
-    text-decoration: underline;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.bio-contenedor {
-    @include flex (column, center, center, 30px);
-    text-align: center;
-
-    p {
-        font-size: $font-xl;
-        font-weight: $font-normal;
+    .bio-contenedor {
+        @include flex (column, center, center, 30px);
+        text-align: center;
     }
 }
+
+
+

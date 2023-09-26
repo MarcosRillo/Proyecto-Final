@@ -1,10 +1,6 @@
 .contactos-section {
     @include flex (column, center, center, 20px);
 
-    &-h2 {
-        font-size: $font-5xl;
-    }
-
     &-contenedor {
         @include flex (row, center, start, 0);
         height: 70%;

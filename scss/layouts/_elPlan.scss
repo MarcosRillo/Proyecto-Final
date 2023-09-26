@@ -1,9 +1,6 @@
 .elPlan__section {
     @include flex (column, center, center, 20px);
     margin-bottom: 5vh;
-    h2 {
-        font-size: $font-5xl;
-    }
 
     &-container {
         @include grid (1fr, none, "video" "cards");

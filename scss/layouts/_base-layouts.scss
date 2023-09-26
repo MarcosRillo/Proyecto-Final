@@ -33,13 +33,13 @@ $footer-text-color: $body-text-color;
         display: flex;
         justify-content: center;
         .index__section {
-            @include flex (column, center, center, 100px);
+            @include flex (column, center, center, 50px);
             width: 100%;
             text-align: center;
             p {
-                font-size: $font-2xl;
-                font-weight: $font-normal;
+                text-shadow: $shadow-md
             }
+
             &-links {
                 @include flex (row, center, center, 12.5rem);
                 margin-top: 4rem;
