@@ -1,3 +1,8 @@
+.fondo-tickets {
+    background-image: url(../assets/img/fondo-tickets.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 .section-contenedor {
     @include flex (column, center, center, 40px);

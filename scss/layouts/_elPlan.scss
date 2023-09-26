@@ -1,3 +1,9 @@
+.fondo-elPlan {
+    background-image: url(../assets/img/fondo-elPlan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .elPlan__section {
     @include flex (column, center, center, 20px);
     margin-bottom: 5vh;
@@ -14,7 +20,7 @@
 
             iframe {
                 width: 100%;
-                height: 80vh;
+                height: 60vh;
                 border-radius: 12px;
             }
         }

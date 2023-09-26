@@ -1,3 +1,9 @@
+.fondo-contactos {
+    background-image: url(../assets/img/fondo-contacto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .contactos-section {
     @include flex (column, center, center, 20px);
 

@@ -167,7 +167,7 @@ p {
 .base-layout {
   display: flex;
   flex-direction: column;
-  background-image: url(../assets/img/fondo.jpg);
+  background-image: url(../assets/img/fondo-index.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -236,6 +236,11 @@ p {
       .base-footer .footer-ul li a img {
         height: 40px; }
 
+.fondo-elPlan {
+  background-image: url(../assets/img/fondo-elPlan.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .elPlan__section {
   display: flex;
   flex-direction: column;
@@ -256,7 +261,7 @@ p {
       width: 100%; }
       .elPlan__section-container .container-video iframe {
         width: 100%;
-        height: 80vh;
+        height: 60vh;
         border-radius: 12px; }
     .elPlan__section-container .cards {
       grid-area: cards;
@@ -268,6 +273,11 @@ p {
       width: 100%; }
       .elPlan__section-container .cards .card img {
         height: 75%; }
+
+.fondo-tickets {
+  background-image: url(../assets/img/fondo-tickets.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .section-contenedor {
   display: flex;
@@ -296,6 +306,11 @@ p {
       color: #bfdbfe;
       transition: all .2s ease-in-out; }
 
+.fondo-bio {
+  background-image: url(../assets/img/fondo-contacto.jpg);
+  background-size: cover;
+  background-position: center; }
+
 .bio-section {
   display: flex;
   flex-direction: column;
@@ -312,6 +327,11 @@ p {
     align-items: center;
     gap: 30px;
     text-align: center; }
+
+.fondo-contactos {
+  background-image: url(../assets/img/fondo-contacto.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .contactos-section {
   display: flex;

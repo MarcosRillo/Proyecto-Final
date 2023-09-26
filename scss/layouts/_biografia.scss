@@ -1,3 +1,9 @@
+.fondo-bio {
+    background-image: url(../assets/img/fondo-contacto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .bio-section {
     @include flex (column, center, center, 40px);
     padding: 2.5rem;
