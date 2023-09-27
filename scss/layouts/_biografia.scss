@@ -9,12 +9,22 @@
     padding: 2.5rem;
 
     .bio-h2 {
-        text-decoration: underline;
+        color: $color-primary;
     }
 
     .bio-contenedor {
         @include flex (column, center, center, 30px);
         text-align: center;
+        background-color: rgba($color: $color-gray-700, $alpha: .6);
+        border-radius: 12px;
+
+        .biografia-card {
+
+            h3 {
+                color: $color-secondary;
+                
+            }
+        } 
     }
 }
 
