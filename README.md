@@ -1,8 +1,8 @@
-# Tercera Pre-Entrega
+# Proyecto Final
 
 ## Descripcion
 
-En este repositorio, encontrarás los archivos y recursos relacionados con la Tercera Pre-Entrega de mi proyecto. Esta entrega incluye SASS, Grid, Flexbox, Animaciones, Editorconfig, manejo de Git y Github.
+En este repositorio, encontrarás los archivos y recursos relacionados con el proyecto final del curso de desarrollo web de Corder House. Esta entrega incluye SASS, Grid, Flexbox, Animaciones, Editorconfig, manejo de Git y Github.
 
 ## Contenido
 
